@@ -44,7 +44,7 @@ gem "carrierwave"
 
 gem 'protected_attributes'
 
-
+gem 'unicorn'
 
 gem 'active_link_to'
 
