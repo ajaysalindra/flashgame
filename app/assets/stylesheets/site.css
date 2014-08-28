@@ -1,0 +1,3 @@
+.columns { overflow:hidden; }
+.columns .col1 { width:50%; float:left; }
+.columns .col2 { width:50%; float:right;}

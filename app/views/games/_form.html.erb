@@ -1,0 +1,39 @@
+<div class="panel"><br>
+	<div class="container panel-body">
+		<%= form_for @game,:html => {:multipart => true} do |f| %>
+			
+			<div>
+				<p>
+					<%= f.label :title, "Title : " %>
+					<%= f.text_field :title %>
+			    </p>
+			</div>
+			<div>
+				<p>
+					<%= f.label :image, "Upload Image :" %>
+					<%= f.file_field :image %>
+			    </p>
+			</div>
+			<div>
+				<p>
+					<%= f.label :swf, "Upload SWF File" %>
+					<%= f.file_field :swf %>
+			    </p>
+			</div>
+			<div>
+				<p>
+					<%= f.label :description, "Description : " %>
+					<%= f.text_area :description %>
+			    </p>
+			</div>
+
+			<div>
+				<p>
+				    <%= f.submit %>
+			    </p>
+			</div>
+
+
+		<% end %>
+</div>
+</div>
